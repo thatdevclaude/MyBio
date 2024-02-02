@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/alt-text */
 import type { MetaFunction } from "@remix-run/node";
+import Card from "./components/Card";
 
 
 export const meta: MetaFunction = () => {
@@ -10,59 +11,148 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+export interface language {
+  name: string
+  icon: string
+  bg: string
+  link: string
+}
+
 export default function Projects() {
 
+  const theSvgCheckMark = () => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" className="h-5 w-5 stroke-primary stroke"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+  </svg>
+
+
+
+  interface Project {
+    tittle: string
+    cover: string
+    description: string
+    languages: language[]
+  }
+
+  const FASTPEN: Project = {
+    tittle: "FastPen",
+    cover: "/fastpen_cover.jpeg",
+    description: " A desktop application tailored for health center receptionists, a time saving solution that simplifies the paperwork process. The FastPen digitizes patient file completion, replacing manual entry with efficient digital workflows. With a user-friendly interface, staff can effortlessly input patient data, ensuring accuracy and reducing errors. The standout feature? Instantly generate and print filled patient files, eliminating the need for tedious manual transcription. Elevation of health center's efficiency and streamline administrative tasks.",
+    languages: [
+      { name: 'Python', icon: "/python.svg", bg:"bg-primary", link: 'https://www.python.org/'},
+      { name: "Qt", icon: "/qt.svg" ,bg: "bg-primary", link: 'https://www.qt.io/product'},
+      { name: "MySQL", icon: "/mysql.svg" ,bg:"bg-white", link: 'https://www.mysql.com/'},
+      { name: "NetFrame", icon: "/net.svg" ,bg:"bg-white", link: 'https://dotnet.microsoft.com/en-us/'},
+
+    ]
+  }
+  const ROBOVAX: Project = {
+    tittle: "RoboVax",
+    cover: "/fastpen_cover.jpeg",
+    description: "  was designed to expedite the registration and injection process during the COVID-19 pandemic. While the web version typically takes 4 minutes to complete, RoboVax accomplished the same tasks in an impressive 40 seconds. Seamlessly reducing the time taken to register individuals and administer injections. because in critical moments, time matters.",
+    languages: [
+      { name: 'Python', icon: "/python.svg", bg:"bg-primary", link: 'https://www.python.org/'},
+      { name: "Qt", icon: "/qt.svg" ,bg: "bg-primary", link: 'https://www.qt.io/product'},
+      { name: "Postgresql", icon: "/postgresql.svg" ,bg:"bg-white", link: 'https://www.postgresql.org/'},
+      { name: "NetFrame", icon: "/net.svg" ,bg:"bg-white", link: 'https://dotnet.microsoft.com/en-us/'},
+
+    ]
+  }
+
+  const MTN: Project = {
+    tittle: "MoMoBuz",
+    cover: "/fastpen_cover.jpeg",
+    description: " Mobile Money Rwanda Ltd Web App for MOMOBIZ(Mobile money for business) registration.A user-friendly solution that eliminates the need to leave  business for an MTN service center visit. convenience of online registration, simplifying the process and saving the time. With just a few clicks, MomoBuz streamlines MOMOBIZ registration, ensuring efficiency without disruptions of daily operations.",
+    languages: [
+      { name: 'JavaScript', icon: "/javascript.png", bg:"bg-primary", link: 'https://nodejs.org/en'},
+      { name: 'Nodejs', icon: "/nodejs.svg", bg:"bg-primary", link: 'https://nodejs.org/en'},
+      { name: "TailwindCSS", icon: "/tailwindcss.svg" ,bg:"bg-white", link: 'https://tailwindcss.com/'},
+      { name: "React", icon: "/react.png" ,bg: "bg-primary", link: 'https://react.dev/'},
+      { name: "Remix", icon: "/favicon.ico" ,bg:"bg-white", link: 'https://remix.run/'},
+      { name: "SqLite", icon: "/sqlite.jpg" ,bg:"bg-white", link: 'https://www.sqlite.org/index.html'},
+      { name: "Redux", icon: "/redux.svg" ,bg:"bg-white", link: 'https://redux.js.org/'},
+
+    ]
+  }
+
+  const ICARE: Project = {
+    tittle: "ICare",
+    cover: "/fastpen_cover.jpeg",
+    description: " Mobile Money Rwanda Ltd Web App for MOMOBIZ(Mobile money for business) registration.A user-friendly solution that eliminates the need to leave  business for an MTN service center visit. convenience of online registration, simplifying the process and saving the time. With just a few clicks, MomoBuz streamlines MOMOBIZ registration, ensuring efficiency without disruptions of daily operations.",
+    languages: [
+      { name: 'Nodejs', icon: "/nodejs.svg", bg:"bg-primary", link: 'https://nodejs.org/en'},
+      { name: "React", icon: "/react.png" ,bg: "bg-primary", link: 'https://react.dev/'},
+      { name: "Remix", icon: "/favicon.ico" ,bg:"bg-white", link: 'https://remix.run/'},
+      { name: "Prisma", icon: "/prisma.png" ,bg:"bg-white", link: 'https://www.prisma.io/'},
+      { name: "Zustand", icon: "/zustand.png" ,bg:"bg-white", link: 'https://zustand-demo.pmnd.rs/'},
+      { name: "TailwindCSS", icon: "/tailwindcss.svg" ,bg:"bg-white", link: 'https://tailwindcss.com/'},
+      { name: "TypeScript", icon: "/typescript.png" ,bg:"bg-white", link: 'https://www.typescriptlang.org/'},
+      { name: "Postgresql", icon: "/postgresql.svg" ,bg:"bg-white", link: 'https://www.postgresql.org/'},
+
+    ]
+  }
+
+
+  
 
 
   return (
-    <div className="flex flex-col space-y-5 justify-center items-center w-full h-full p-5 m-1 ">
-    {/* profile photo */}
+    <div className="">
+
+      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <li>
+          <div className="timeline-middle">
+            {theSvgCheckMark()}
+          </div>
+          <div className="timeline-start text-end mb-10">
+            <time className="font-mono italic text-white text-end">{FASTPEN.tittle}</time>
+            {/* card */}
+            <Card tittle={FASTPEN.tittle} cover={FASTPEN.cover} description={FASTPEN.description} icons={FASTPEN.languages}/>
+          </div>
+          <hr />
+        </li>
 
 
-    <div className="avatar mb-10">
-      <div className=" w-36 rounded-full min-w-fit ring ring-sky-400 shadow-lg shadow-sky-500">
+        <li>
+          <div className="timeline-middle">
+            {theSvgCheckMark()}
+          </div>
+          <div className="timeline-end text-start mb-10">
+            <time className="font-mono italic text-white font-bold">{ROBOVAX.tittle}</time>
+            {/* card */}
+            <Card tittle={ROBOVAX.tittle} cover={ROBOVAX.cover} description={ROBOVAX.description} icons={ROBOVAX.languages}/>
+          </div>
+          <hr />
+        </li>
 
-        <div className=" min-w-fit">
-          <img src="/Passport_photo-Claude.png" />
-        </div>
-      </div>
+        <li>
+          <div className="timeline-middle">
+            {theSvgCheckMark()}
+          </div>
+          <div className="timeline-start text-end mb-10">
+            <time className="font-mono italic text-white font-bold">{MTN.tittle}</time>
+            {/* card */}
+            <Card tittle={MTN.tittle} cover={MTN.cover} description={MTN.description} icons={MTN.languages}/>
+          </div>
+          <hr />
+        </li>
+
+
+        <li>
+          <div className=" timeline-end">
+            {theSvgCheckMark()}
+          </div>
+          <div className="timeline-end text-start mb-10">
+            <time className="font-mono italic text-white font-bold">{ICARE.tittle}</time>
+            {/* card */}
+            <Card tittle={ICARE.tittle} cover={ICARE.cover} description={ICARE.description} icons={ICARE.languages}/>
+          </div>
+          <hr />
+        </li>
+
+
+      </ul>
+
+
     </div>
-
-    {/* info box */}
-    <div className="p-2 shadow-lg shadow-primary rounded-md">
-
-      <div className="prose min-w-full">
-        <p className="lead">Hey there!  </p>
-
-        <p>
-          My name is <strong><em ><code className="text-primary ">Jean Claude NIYONZIMA</code></em></strong> I am <em><code>28 years old</code> </em> born and raised in Rwanda <code>🇷🇼</code>
-          <p>I am a passionate tech aficionado with a childhood deeply influenced by the hums of military machinery. Growing up in the dynamic world of military technology, courtesy of my father's role as a skilled technician, I found myself captivated by the allure of innovation.</p>
-
-          <p>From an early age, I couldn't resist the temptation to tinker with gadgets and dismantle anything that came my way. My curious mind naturally led me to the world of Science, where I laid the groundwork for my journey. High school was my playground for mastering the trio of brilliance - Physics, Chemistry, and Mathematics. I embraced these subjects not just as academic pursuits but as the building blocks of my tech-fueled dreams.</p>
-
-          <p>University life beckoned, and I answered the call by diving headfirst into the realm of Computer Science. Here, the lines of code became my poetic verses, and algorithms transformed into my artistic expressions. Studying Computer Science was not just an academic pursuit; it was a continuation of a lifelong love affair with technology.</p>
-
-          <p>As I navigated the fascinating landscapes of programming languages and digital architectures, I couldn't help but reflect on the invaluable lessons learned from my father's military background. Precision, discipline, and a knack for problem-solving were not just academic virtues but the very essence of my upbringing.</p>
-
-          <p>Fast forward to today, and I find myself at the intersection of passion and profession, blending the inquisitive spirit of my childhood with the structured knowledge gained through formal education. Whether I'm coding up a storm or unraveling the intricacies of cutting-edge tech, I'm living the dream that started in the workshop of my military-technician father.</p>
-        </p>
-
-      </div>
-
-      <div>
-      </div>
-
-
-
-
-
-    </div>
-
-
-
-
-
-  </div>
 
   );
 }
