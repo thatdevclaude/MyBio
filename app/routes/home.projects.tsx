@@ -34,7 +34,7 @@ export default function Projects() {
 
   const FASTPEN: Project = {
     tittle: "FastPen",
-    cover: "/fastpen_cover.jpeg",
+    cover: "/fastpen.jpeg",
     description: " A desktop application tailored for health center receptionists, a time saving solution that simplifies the paperwork process. The FastPen digitizes patient file completion, replacing manual entry with efficient digital workflows. With a user-friendly interface, staff can effortlessly input patient data, ensuring accuracy and reducing errors. The standout feature? Instantly generate and print filled patient files, eliminating the need for tedious manual transcription. Elevation of health center's efficiency and streamline administrative tasks.",
     languages: [
       { name: 'Python', icon: "/python.svg", bg:"bg-primary", link: 'https://www.python.org/'},
@@ -46,7 +46,7 @@ export default function Projects() {
   }
   const ROBOVAX: Project = {
     tittle: "RoboVax",
-    cover: "/fastpen_cover.jpeg",
+    cover: "/robovax_anim.gif",
     description: "  was designed to expedite the registration and injection process during the COVID-19 pandemic. While the web version typically takes 4 minutes to complete, RoboVax accomplished the same tasks in an impressive 40 seconds. Seamlessly reducing the time taken to register individuals and administer injections. because in critical moments, time matters.",
     languages: [
       { name: 'Python', icon: "/python.svg", bg:"bg-primary", link: 'https://www.python.org/'},
@@ -59,7 +59,7 @@ export default function Projects() {
 
   const MTN: Project = {
     tittle: "MoMoBuz",
-    cover: "/fastpen_cover.jpeg",
+    cover: "/momobuz_anim_2.gif",
     description: " Mobile Money Rwanda Ltd Web App for MOMOBIZ(Mobile money for business) registration.A user-friendly solution that eliminates the need to leave  business for an MTN service center visit. convenience of online registration, simplifying the process and saving the time. With just a few clicks, MomoBuz streamlines MOMOBIZ registration, ensuring efficiency without disruptions of daily operations.",
     languages: [
       { name: 'JavaScript', icon: "/javascript.png", bg:"bg-primary", link: 'https://nodejs.org/en'},
@@ -75,7 +75,7 @@ export default function Projects() {
 
   const ICARE: Project = {
     tittle: "ICare",
-    cover: "/fastpen_cover.jpeg",
+    cover: "/icare_anim_3.gif",
     description: " Mobile Money Rwanda Ltd Web App for MOMOBIZ(Mobile money for business) registration.A user-friendly solution that eliminates the need to leave  business for an MTN service center visit. convenience of online registration, simplifying the process and saving the time. With just a few clicks, MomoBuz streamlines MOMOBIZ registration, ensuring efficiency without disruptions of daily operations.",
     languages: [
       { name: 'Nodejs', icon: "/nodejs.svg", bg:"bg-primary", link: 'https://nodejs.org/en'},

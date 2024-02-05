@@ -22,6 +22,7 @@ function Card({tittle, cover, description, icons }: cardOptions) {
 
                             <div className={`w-10 rounded-full `}>
                                 <img src={icon.icon} alt={icon.name} />
+                                {/* <AnimatedGif gifUrl={icon.icon} /> */}
                             </div>
                                 <NavLink to={icon.link} className="">
                                     <code className='badge bg-white/10  hover:shadow hover:shadow-primary'>
