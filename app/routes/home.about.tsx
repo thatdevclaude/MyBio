@@ -33,12 +33,20 @@ export default function About() {
       <nav>
         <div className="grid grid-flow-col gap-4 bg-black p-2 rounded-lg">
           <NavLink className="hover:text-sky-500 duration-200 rounded-full" to={"https://twitter.com/NiJeanClaude"}>
-            <img src="twiter.svg" alt="" />
+            <img src="/twiter.svg" alt="" />
 
           </NavLink>
-          <NavLink className="hover:text-red-500 duration-200 rounded-full w-8" to={"mailto:jeanclaude96niyo@gmail.com"}>
+          <NavLink className="hover:text-red-500 duration-200 rounded-full w-8" to={""}
+          
+          onClick={(e) => {
+              window.location.href = "mailto:jeanclaude96niyo@gmail.com";
+              e.preventDefault();
+          }}
+          >
             
-            <img src="/gmail.svg" alt=""/>
+            <img src="/gmail.svg" alt=""
+            
+            />
           </NavLink>
           <NavLink className="hover:text-blue-500 duration-200 rounded-full w-8" to={"https://wa.me/250782292816"}>
             <img src="/whatsapp.svg" alt="" />

@@ -66,7 +66,7 @@ export default function Projects() {
       { name: 'Nodejs', icon: "/nodejs.svg", bg:"bg-primary", link: 'https://nodejs.org/en'},
       { name: "TailwindCSS", icon: "/tailwindcss.svg" ,bg:"bg-white", link: 'https://tailwindcss.com/'},
       { name: "React", icon: "/react.png" ,bg: "bg-primary", link: 'https://react.dev/'},
-      { name: "Remix", icon: "/favicon.ico" ,bg:"bg-white", link: 'https://remix.run/'},
+      { name: "Remix", icon: "/remix.ico" ,bg:"bg-white", link: 'https://remix.run/'},
       { name: "SqLite", icon: "/sqlite.jpg" ,bg:"bg-white", link: 'https://www.sqlite.org/index.html'},
       { name: "Redux", icon: "/redux.svg" ,bg:"bg-white", link: 'https://redux.js.org/'},
 
@@ -76,11 +76,11 @@ export default function Projects() {
   const ICARE: Project = {
     tittle: "ICare",
     cover: "/icare_anim_3.gif",
-    description: " Mobile Money Rwanda Ltd Web App for MOMOBIZ(Mobile money for business) registration.A user-friendly solution that eliminates the need to leave  business for an MTN service center visit. convenience of online registration, simplifying the process and saving the time. With just a few clicks, MomoBuz streamlines MOMOBIZ registration, ensuring efficiency without disruptions of daily operations.",
+    description: " ICare is a modern healthcare management system that streamlines patient care and organizational processes. With features like patient management, appointment scheduling, billing, EHR, inventory management, staff management, analytics, and telemedicine integration, iCare ensures efficient healthcare administration and improved patient outcomes. Elevate your healthcare institution with iCare's comprehensive and innovative approach to managing all aspects of healthcare seamlessly.",
     languages: [
       { name: 'Nodejs', icon: "/nodejs.svg", bg:"bg-primary", link: 'https://nodejs.org/en'},
       { name: "React", icon: "/react.png" ,bg: "bg-primary", link: 'https://react.dev/'},
-      { name: "Remix", icon: "/favicon.ico" ,bg:"bg-white", link: 'https://remix.run/'},
+      { name: "Remix", icon: "/remix.ico" ,bg:"bg-white", link: 'https://remix.run/'},
       { name: "Prisma", icon: "/prisma.png" ,bg:"bg-white", link: 'https://www.prisma.io/'},
       { name: "Zustand", icon: "/zustand.png" ,bg:"bg-white", link: 'https://zustand-demo.pmnd.rs/'},
       { name: "TailwindCSS", icon: "/tailwindcss.svg" ,bg:"bg-white", link: 'https://tailwindcss.com/'},
@@ -137,7 +137,7 @@ export default function Projects() {
 
 
         <li>
-          <div className=" timeline-end">
+          <div className=" timeline-middle">
             {theSvgCheckMark()}
           </div>
           <div className="timeline-end text-start mb-10">
