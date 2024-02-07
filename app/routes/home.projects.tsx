@@ -102,7 +102,7 @@ export default function Projects() {
           <div className="timeline-middle">
             {theSvgCheckMark()}
           </div>
-          <div className="timeline-start text-end mb-10">
+          <div className="timeline-start text-start sm:text-end mb-10">
             <time className="font-mono italic text-white text-end">{FASTPEN.tittle}</time>
             {/* card */}
             <Card tittle={FASTPEN.tittle} cover={FASTPEN.cover} description={FASTPEN.description} icons={FASTPEN.languages}/>
@@ -127,7 +127,7 @@ export default function Projects() {
           <div className="timeline-middle">
             {theSvgCheckMark()}
           </div>
-          <div className="timeline-start text-end mb-10">
+          <div className="timeline-start text-start sm:text-end mb-10">
             <time className="font-mono italic text-white font-bold">{MTN.tittle}</time>
             {/* card */}
             <Card tittle={MTN.tittle} cover={MTN.cover} description={MTN.description} icons={MTN.languages}/>

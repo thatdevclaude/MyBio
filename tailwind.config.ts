@@ -10,7 +10,7 @@ export default {
     require('@tailwindcss/typography'),
   ],
   daisyui:{
-    themes:["forest"]
+    themes:["forest", "dark", "retro"]
   }
 } satisfies Config
 

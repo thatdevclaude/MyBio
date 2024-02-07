@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import type { MetaFunction } from "@remix-run/node";
 import { NavLink } from "@remix-run/react";
+import { FaXTwitter } from "react-icons/fa6";
 
 
 export const meta: MetaFunction = () => {
@@ -31,9 +32,10 @@ export default function About() {
 
       {/* links */}
       <nav>
-        <div className="grid grid-flow-col gap-4 bg-black p-2 rounded-lg">
-          <NavLink className="hover:text-sky-500 duration-200 rounded-full" to={"https://twitter.com/NiJeanClaude"}>
-            <img src="/twiter.svg" alt="" />
+        <div className="grid grid-flow-col gap-4 bg-black p-2 rounded-lg items-center">
+          <NavLink  to={"https://twitter.com/NiJeanClaude"}>
+            {/* <img src="/twiter.svg" alt="" className=""/> */}
+            <FaXTwitter size={25}/>
 
           </NavLink>
           <NavLink className="hover:text-red-500 duration-200 rounded-full w-8" to={""}
@@ -44,9 +46,7 @@ export default function About() {
           }}
           >
             
-            <img src="/gmail.svg" alt=""
-            
-            />
+            <img src="/gmail.svg" alt=""/>
           </NavLink>
           <NavLink className="hover:text-blue-500 duration-200 rounded-full w-8" to={"https://wa.me/250782292816"}>
             <img src="/whatsapp.svg" alt="" />
@@ -61,10 +61,10 @@ export default function About() {
       <div className="p-2 shadow-lg shadow-primary rounded-md bg-black">
 
         <div className="prose min-w-full">
-          <p className="lead">Hey there!  </p>
+          <p className="lead">Hey there!</p>
 
           <p>
-            My name is <strong><em ><code className="text-primary ">Jean Claude NIYONZIMA</code></em></strong> I am <em><code>28 years old</code> </em> born and raised in Rwanda <code>🇷🇼</code>
+            My name is <strong><em ><code className="text-primary ">Jean Claude NIYONZIMA</code></em></strong> I am <em><code>28 years old</code> </em> born and raised in Rwanda <code>🇷🇼</code>.
             <p>I am a passionate tech aficionado with a childhood deeply influenced by the hums of military machinery. Growing up in the dynamic world of military technology, courtesy of my father's role as a skilled technician, I found myself captivated by the allure of innovation.</p>
 
             <p>From an early age, I couldn't resist the temptation to tinker with gadgets and dismantle anything that came my way. My curious mind naturally led me to the world of Science, where I laid the groundwork for my journey. High school was my playground for mastering the trio of brilliance - Physics, Chemistry, and Mathematics. I embraced these subjects not just as academic pursuits but as the building blocks of my tech-fueled dreams.</p>

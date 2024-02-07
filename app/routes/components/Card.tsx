@@ -15,7 +15,7 @@ function Card({tittle, cover, description, icons }: cardOptions) {
                 <img src={cover} alt='' className='' /></figure>
             <div className=" card-body">
                 <h2 className="card-title text-primary font-bold">{tittle}</h2>
-                <p className='text-start'>{description}</p>
+                <p className='text-start '>{description}</p>
                 <div className="card-actions justify-evenly items-center p-1 rounded-lg bg-base-100">
                     {icons?.map((icon, index) => (
                         <div key={index} className={`avatar scale-100 hover:scale-110 duration-200`} >
