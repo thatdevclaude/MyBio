@@ -65,16 +65,38 @@ export default function About() {
 
           <p>
             My name is <strong><em ><code className="text-primary ">Jean Claude NIYONZIMA</code></em></strong>.
-            <p>I am a passionate tech aficionado with a childhood deeply influenced by the hums of military machinery. Growing up in the dynamic world of military technology, courtesy of my father's role as a skilled technician, I found myself captivated by the allure of innovation.</p>
 
-            <p>From an early age, I couldn't resist the temptation to tinker with gadgets and dismantle anything that came my way. My curious mind naturally led me to the world of Science, where I laid the groundwork for my journey. High school was my playground for mastering the trio of brilliance - Physics, Chemistry, and Mathematics. I embraced these subjects not just as academic pursuits but as the building blocks of my tech-fueled dreams.</p>
+            <p>
+            Software Engineer specializing in Java (Spring Boot), Angular, Python(PyQt) and Flutter
+“I turn coffee into code, and code into tools people actually use.”
 
-            <p>University life beckoned, and I answered the call by diving headfirst into the realm of Computer Science. Here, the lines of code became my poetic verses, and algorithms transformed into my artistic expressions. Studying Computer Science was not just an academic pursuit; it was a continuation of a lifelong love affair with technology.</p>
+🛠️ What I Do
+Build Scalable Backends: Spring Boot APIs that survive Black Friday traffic (and junior devs).
+Design Human-Friendly Frontends: Angular apps so intuitive, even your non-tech clients stop complaining.
+Ship Mobile Magic: Flutter apps for field teams who’d rather work than fight buggy software.
+🏆 Proudest Moments
+Reduced API latency by 40% for a healthcare app (yes, Redis helped—but so did my 3 AM sanity checks).
+Modernized 3 legacy Angular apps to v16+. Users didn’t notice… and that’s the compliment.
+Built a Flutter app in 10 days for technicians using duct-taped iPads. Now 200+ people use it daily.
+🌟 Why Work With Me?
+“I break down tech debt like it’s a piñata—except the candy’s actually useful.”
+“I ship fast, but I test first (most of the time).”
+“I ask ‘Why?’ until your requirements cry uncle.”
 
-            <p>As I navigated the fascinating landscapes of programming languages and digital architectures, I couldn't help but reflect on the invaluable lessons learned from my father's military background. Precision, discipline, and a knack for problem-solving were not just academic virtues but the very essence of my upbringing.</p>
+💬 Human Stuff
+My toxic trait: Refactoring during code reviews. (Sorry.)
+Secret superpower: Explaining technical debt to CEOs using car analogies.
+Current obsession: AI-generated haikus about Java exceptions.
+My mom uses an app I built. Voluntarily.
 
-            <p>Fast forward to today, and I find myself at the intersection of passion and profession, blending the inquisitive spirit of my childhood with the structured knowledge gained through formal education. Whether I'm coding up a storm or unraveling the intricacies of cutting-edge tech, I'm living the dream that started in the workshop of my military-technician father.</p>
-          </p>
+📩 Let’s Team Up If…
+Your codebase needs a therapist (or a fire extinguisher).
+You want features that scale, not just deploy.
+You think “user-friendly” and “Spring Boot” belong in the same sentence.
+
+
+            </p>
+            </p>
 
         </div>
 
