@@ -63,7 +63,7 @@ export default function About() {
         <div className="prose min-w-full">
           <p className="lead">Hey there 🖐</p>
 
-          <p>
+          
             <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Software Engineer</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;specializing in&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Java (Spring Boot)</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">,&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Angular</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">,&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Python(PyQt)&nbsp;</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">and&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Flutter</span></strong><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;"><br></span></strong><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&ldquo;I turn coffee into code, and code into tools people</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;actually&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">use.&rdquo;</span></em></p>
 <p><br></p>
 <hr>
@@ -140,9 +140,9 @@ export default function About() {
 <p><br></p>
 <p><br></p>
             </p>
-            </p>
 
-        </div>
+
+        div>
 
         <div>
         </div>
