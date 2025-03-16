@@ -65,7 +65,7 @@ export default function About() {
 
           
         
-    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8">
+    
         <h1 class="text-3xl font-bold text-center text-blue-600 mb-4">
             Software Engineer Specializing in Java (Spring Boot), Angular, Python (PyQt), and Flutter
         </h1>
@@ -119,7 +119,7 @@ export default function About() {
                 <li>You think “user-friendly” and “Spring Boot” belong in the same sentence.</li>
             </ul>
         </section>
-    </div>
+       
 
        </div>
 
