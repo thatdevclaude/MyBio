@@ -64,85 +64,64 @@ export default function About() {
           <p className="lead">Hey there 🖐</p>
 
           
-            <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Software Engineer</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;specializing in&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Java (Spring Boot)</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">,&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Angular</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">,&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Python(PyQt)&nbsp;</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">and&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Flutter</span></strong><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;"><br></span></strong><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&ldquo;I turn coffee into code, and code into tools people</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;actually&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">use.&rdquo;</span></em></p>
-<p><br></p>
-<hr>
-<p><br></p>
-<h4><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">🛠️&nbsp;</span><strong><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">What I Do</span></strong></h4>
-<ul>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Build Scalable Backends</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: Spring Boot APIs that survive Black Friday traffic (and junior devs).</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Design Human-Friendly Frontends</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: Angular apps so intuitive, even your&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">non-tech</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;clients stop complaining.</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Ship Mobile Magic</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: Flutter apps for field teams who&rsquo;d rather&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">work</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;than fight buggy software.</span></p>
-    </li>
-</ul>
-<h4><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">🏆&nbsp;</span><strong><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">Proudest Moments</span></strong></h4>
-<ul>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Reduced API latency&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">by 40%</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;for a healthcare app (yes, Redis helped&mdash;but so did my 3 AM sanity checks).</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Modernized&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">3 legacy Angular apps</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;to v16+. Users didn&rsquo;t notice&hellip;&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">and that&rsquo;s the compliment</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Built a Flutter app in&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">10 days</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;for technicians using duct-taped iPads. Now 200+ people use it daily.</span></p>
-    </li>
-</ul>
-<h4><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">🌟&nbsp;</span><strong><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">Why Work With Me?</span></strong></h4>
-<ul>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&ldquo;I break down tech debt like it&rsquo;s a pi&ntilde;ata</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&mdash;except the candy&rsquo;s actually useful.&rdquo;</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&ldquo;I ship fast, but I test first</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;(most of the time).&rdquo;</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&ldquo;I ask &lsquo;Why?&rsquo;</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;until your requirements cry uncle.&rdquo;</span></p>
-    </li>
-</ul>
-<p><br></p>
-<hr>
-<p><br></p>
-<h3><span style="color:#333333;font-size:13.0pt;font-family:Georgia,serif;">💬&nbsp;</span><strong><span style="color:#333333;font-size:13.0pt;font-family:Georgia,serif;">Human Stuff</span></strong></h3>
-<ul>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">My toxic trait</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: Refactoring&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">during</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;code reviews. (Sorry.)</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Secret superpower</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: Explaining technical debt to CEOs using&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">car analogies</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Current obsession</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">: AI-generated haikus about Java exceptions.</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">My mom uses an app I built</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Voluntarily</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.</span></p>
-    </li>
-</ul>
-<p><br></p>
-<hr>
-<p><br></p>
-<h4><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">📩&nbsp;</span><strong><span style="color:#333333;font-size:11.0pt;font-family:Georgia,serif;">Let&rsquo;s Team Up If&hellip;</span></strong></h4>
-<ul>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">Your codebase needs a&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">therapist</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">&nbsp;(or a fire extinguisher).</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">You want features that&nbsp;</span><strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">scale</span></strong><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">, not just&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">deploy</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.</span></p>
-    </li>
-    <li style="list-style-type:disc;color:#333333;font-size:10.5pt;font-family:Georgia,serif;">
-        <p><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">You think &ldquo;user-friendly&rdquo; and &ldquo;Spring Boot&rdquo;&nbsp;</span><em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">belong in the same sentence</span></em><span style="color:#333333;font-size:10.5pt;font-family:Georgia,serif;">.</span></p>
-    </li>
-</ul>
-<p><br></p>
-<p><br></p>
-            </p>
+        
+    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8">
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-4">
+            Software Engineer Specializing in Java (Spring Boot), Angular, Python (PyQt), and Flutter
+        </h1>
 
+        <p class="italic text-center text-gray-500 mb-6">
+            "I turn coffee into code, and code into tools people actually use."
+        </p>
 
-        div>
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-2">🛠️ What I Do</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li><b>Build Scalable Backends:</b> Spring Boot APIs that survive Black Friday traffic (and junior devs).</li>
+                <li><b>Design Human-Friendly Frontends:</b> Angular apps so intuitive, even your non-tech clients stop complaining.</li>
+                <li><b>Ship Mobile Magic:</b> Flutter apps for field teams who’d rather work than fight buggy software.</li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-2">🏆 Proudest Moments</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Reduced API latency by 40% for a healthcare app (yes, Redis helped—but so did my 3 AM sanity checks).</li>
+                <li>Modernized 3 legacy Angular apps to v16+. Users didn’t notice… and that’s the compliment.</li>
+                <li>Built a Flutter app in 10 days for technicians using duct-taped iPads. Now 200+ people use it daily.</li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-2">🌟 Why Work With Me?</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>"I break down tech debt like it’s a piñata—except the candy’s actually useful."</li>
+                <li>"I ship fast, but I test first (most of the time)."</li>
+                <li>"I ask ‘Why?’ until your requirements cry uncle."</li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-2">💬 Human Stuff</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>My toxic trait: Refactoring during code reviews. (Sorry.)</li>
+                <li>Secret superpower: Explaining technical debt to CEOs using car analogies.</li>
+                <li>Current obsession: AI-generated haikus about Java exceptions.</li>
+                <li>My mom uses an app I built. Voluntarily.</li>
+            </ul>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-2">📩 Let’s Team Up If…</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Your codebase needs a therapist (or a fire extinguisher).</li>
+                <li>You want features that scale, not just deploy.</li>
+                <li>You think “user-friendly” and “Spring Boot” belong in the same sentence.</li>
+            </ul>
+        </section>
+    </div>
+
+       </div>
 
         <div>
         </div>
